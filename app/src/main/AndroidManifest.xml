@@ -13,14 +13,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Music_Player">
         <activity
-            android:name=".baseActivity"
-            android:exported="false" />
-        <activity
-            android:name=".BaseActivity"
-            android:exported="false"
-            android:label="@string/title_activity_base"
-            android:theme="@style/Theme.Music_Player.NoActionBar" />
-        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
