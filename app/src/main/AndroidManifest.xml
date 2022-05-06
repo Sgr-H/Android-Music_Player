@@ -3,7 +3,7 @@
     package="com.example.music_player">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
         android:allowBackup="true"
@@ -13,10 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Music_Player">
         <activity
+            android:name=".baseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BaseActivity"
+            android:exported="false"
+            android:label="@string/title_activity_base"
+            android:theme="@style/Theme.Music_Player.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".PlayerActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".guide_main"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

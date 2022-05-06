@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/drawable/common_back_ic.xml" value="0.1015" />
+        <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/drawable/ic_delete.xml" value="0.1015" />
         <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/drawable/ic_fast_forward.xml" value="0.1015" />
         <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/drawable/ic_fast_rewind.xml" value="0.1015" />
         <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/drawable/ic_music.xml" value="0.1015" />
@@ -11,9 +13,17 @@
         <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/drawable/ic_play.xml" value="0.1015" />
         <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/drawable/ic_prev.xml" value="0.1015" />
         <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/drawable/list_bg.xml" value="0.10400000000000001" />
+        <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/layout/activity_base.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/layout/activity_guide_main.xml" value="0.24547101449275363" />
         <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/layout/activity_main.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/layout/activity_player.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/layout/fragment_first.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/layout/fragment_second.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/layout/item_guide1.xml" value="0.24547101449275363" />
         <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/layout/list_item.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/layout/nav_header.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/menu/nav_menu.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/sgrhuang/AndroidStudioProjects/Music_Player/app/src/main/res/menu/toolbar.xml" value="0.26145833333333335" />
       </map>
     </option>
   </component>

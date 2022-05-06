@@ -8,6 +8,7 @@ import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -36,6 +37,11 @@ public class PlayerActivity extends AppCompatActivity {
 
     Thread updateseekbar;
 
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.toolbar,menu);
+        return true;
+    }
+
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
@@ -54,9 +60,9 @@ public class PlayerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_player);
 
-        getSupportActionBar().setTitle("Now Playing");
+        /*getSupportActionBar().setTitle("Now Playing");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);*/
 
 
         btnprev=findViewById(R.id.btnprev);
@@ -69,6 +75,7 @@ public class PlayerActivity extends AppCompatActivity {
         txtsstop=findViewById(R.id.txtsstop);
         seekmusic=findViewById(R.id.seekbar);
         imageView=findViewById(R.id.imageview);
+
 
         if(mediaPlayer!=null){
             mediaPlayer.stop();
